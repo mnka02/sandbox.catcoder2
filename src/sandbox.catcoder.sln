@@ -4,9 +4,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "testing", "testing", "{15BB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmarks", "benchmarks", "{0CA822CB-1CDC-4A3D-BFCC-2ADA54E5B1D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toolbox.Duplicatables", "toolbox.Duplicatables\toolbox.Duplicatables.csproj", "{2397C821-BF63-4E85-9FED-990A9842F50C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2397C821-BF63-4E85-9FED-990A9842F50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2397C821-BF63-4E85-9FED-990A9842F50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2397C821-BF63-4E85-9FED-990A9842F50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2397C821-BF63-4E85-9FED-990A9842F50C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
