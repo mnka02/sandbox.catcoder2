@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91d0ee4e-5be6-4557-b97d-0aa17c84443b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../toolbox.DiscriminatedUnions.tests/DiscriminatedUnionTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../toolbox.DiscriminatedUnions.tests/toolbox.DiscriminatedUnions.tests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../toolbox.DiscriminatedUnions/DiscriminatedUnion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../toolbox.DiscriminatedUnions/IDiscriminatedable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../toolbox.DiscriminatedUnions/toolbox.DiscriminatedUnions.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sandbox.catcoder.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../sandbox.catcoder.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DuplicatablesTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DuplicatablesTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toolbox.Duplicatables.tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/toolbox.Duplicatables.tests.csproj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="3Cqez5JuQiGbxgYxjKLp5P7PjC4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "feat.toolbox.discriminatedUnions",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91d0ee4e-5be6-4557-b97d-0aa17c84443b" name="Changes" comment="" />
+      <created>1777117786801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777117786801</updated>
+      <workItem from="1777117787872" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
