@@ -1,5 +1,4 @@
 using Xunit;
-
 namespace toolbox.Duplicatables.tests;
 public class DuplicatablesTests {
 
