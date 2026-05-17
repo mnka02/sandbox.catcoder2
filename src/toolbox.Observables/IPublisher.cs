@@ -8,18 +8,8 @@ namespace toolbox.Observables;
 /// <see href="https://refactoring.guru/design-patterns/observer"/>
 /// </summary>
 /// <typeparam name="TContext">Datatype of value, that will be forwarded to each subscriber</typeparam>
-public interface IPublisher <TContext> {
-
-    /// <summary>
-    /// Adds the subscriber to the list. 
-    /// </summary>
-    /// <param name="subscriber">Joins the list of subscribers.</param>
-    public void Subscribe (ISubscriber <TContext> subscriber);
-    /// <summary>
-    /// Remove a subscriber from the list.
-    /// </summary>
-    /// <param name="subscriber">Leaves the list of subscribers.</param>
-    public void Unsubscribe (ISubscriber <TContext> subscriber);
+public interface IPublisher <TContext> : ISubscribable <TContext> {
+    
     /// <summary>
     /// Issues details to each subscriber.
     /// </summary>
