@@ -7,10 +7,22 @@
     </PropertyGroup>
 
 
-
     <ItemGroup>
       <ProjectReference Include="..\toolbox.Observables\toolbox.Observables.csproj" />
     </ItemGroup>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
