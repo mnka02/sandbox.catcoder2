@@ -1,10 +1,13 @@
-using toolbox.Pipeline.Communications;
+using toolbox.Observables;
+using toolbox.Pipeline.BlockCommunication;
 
-namespace toolbox.Pipeline;
+namespace toolbox.Pipeline; 
 
 /// <summary>
-/// Last Block of any pipeline. It receives data from other block components of the pipeline.
+/// It is the last block of any pipeline. It receives data from upstream pipeline components and produces
+/// the final outcome of the pipeline. It acts as a publisher of the Observer Design Pattern. The final
+/// outcome of the pipeline is passed on to the subscribers.
 /// </summary>
-/// <typeparam name="TContext">Type of issued data.</typeparam>
-public interface ILastBlock <TContext> : 
-    IBlock <TContext>, IConsumerBlock <TContext> { }
+/// <typeparam name="TContext">Datatype of incoming data and of the final result of the pipeline.</typeparam>
+public interface ILastBlock <TContext> 
+    : IBlock <TContext>, IConsumerBlock <TContext>, ISubscribable <TContext> { }

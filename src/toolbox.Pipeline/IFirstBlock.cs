@@ -1,10 +1,10 @@
-using toolbox.Pipeline.Communications;
+using toolbox.Pipeline.BlockCommunication;
 
 namespace toolbox.Pipeline; 
 
 /// <summary>
-/// First component of any pipeline. It publishes data to other components of the pipeline. 
+/// It is the first component of any pipeline. It forwards data to downstream pipeline components.
 /// </summary>
-/// <typeparam name="TContext">Type of issued data.</typeparam>
-public interface IFirstBlock <TContext>
+/// <typeparam name="TContext">Datatype of data, that is passed to downstream pipeline components.</typeparam>
+public interface IFirstBlock <TContext> 
     : IBlock <TContext>, IProducerBlock <TContext> { }

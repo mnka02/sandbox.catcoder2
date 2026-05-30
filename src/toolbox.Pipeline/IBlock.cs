@@ -1,18 +1,19 @@
 namespace toolbox.Pipeline; 
 
 /// <summary>
-/// The fundamental component of a pipeline. Defines a single processing step that transforms or
+/// The most basic component of any pipeline. Defines a single processing step that transforms or
 /// enriches data before forwarding it to the next stage.
+/// <typeparam name="TContext">Datatype of forwarded data</typeparam>
 /// </summary>
-/// <typeparam name="TContext">Type of data</typeparam>
 public interface IBlock <TContext> {
     /// <summary>
-    /// Identifier of pipeline component
+    /// Unique name of this pipeline component. It will be used for logging.
     /// </summary>
     public string Identifier { get; init; }
     
     /// <summary>
-    /// Processes incoming data and produces the enriched output to be passed downstream.
+    /// Processes incoming data and produces the dataset, that is passed on the next block in the
+    /// pipeline.
     /// </summary>
     public IBlockStrategy <TContext> Transformer { get; init; }
 }

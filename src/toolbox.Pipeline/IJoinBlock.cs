@@ -1,11 +1,11 @@
-using toolbox.Pipeline.Communications;
+using toolbox.Pipeline.BlockCommunication;
 
 namespace toolbox.Pipeline; 
 
 /// <summary>
-/// Middleware of any pipeline. It receives data from other block components of the pipline
-/// and it issues data to other block components.
+/// It is the middleware of any pipeline. It receives data from upstream pipeline components and
+/// it publishes data to downstream pipeline components.
 /// </summary>
-/// <typeparam name="TContext">Type of issued data.</typeparam>
-public interface IJoinBlock <TContext> : 
-    IBlock <TContext>, IConsumerBlock <TContext>, IProducerBlock <TContext> { }
+/// <typeparam name="TContext">Datatype of incoming and outgoing data.</typeparam>
+public interface IJoinBlock <TContext> 
+    : IBlock <TContext>, IConsumerBlock <TContext>, ILinkableBlock <TContext> { }
